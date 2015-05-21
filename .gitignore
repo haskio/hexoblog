@@ -5,3 +5,8 @@ debug.log
 npm-debug.log
 public
 .deploy/
+*.idea
+.idea
+idea
+.DS_Store
+*.DS_Store
