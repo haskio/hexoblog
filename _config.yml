@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 非想的随缘小站
+title: 随缘小站
 subtitle: 非想非非想
 description: 移动、无线、教育、产品
 author: askio
-language: zh-CN
+language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: suiyuan.info
+url: haskio.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -44,7 +44,7 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: none
+default_category: 记录
 category_map:
 tag_map:
 
@@ -60,8 +60,9 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+
 # Disqus
-disqus_shortname: haskio
+#disqus_shortname:
 
 plugins:
 - hexo-generator-feed
@@ -71,10 +72,33 @@ plugins:
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: light
+theme: next
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: github
   repository: https://github.com/haskio/haskio.github.io.git
+  
+# next setting
+  
+  
+  
+  
+  
+#  ssuo
+swiftype_key: gY5bEqUhn3NqNzM3yxbW
+
+# 多说帐号
+duoshuo_shortname: haskio
+  
+
+# 站点起始时间
+since: 2010
+  
+  
+  
+  
+  
+  
+  

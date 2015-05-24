@@ -25,9 +25,7 @@
           </div>
         <% } %>
         <% if (item.comment && config.disqus_shortname){ %>
-        <div class="alignright">
-          <a href="<%- item.permalink %>#disqus_thread" class="comment-link">Comments</a>
-        </div>
+       
         <% } %>
       <% } else { %>
         <%- partial('post/category') %>
@@ -39,4 +37,3 @@
   </div>
 </article>
 
-<%- partial('comment') %>
